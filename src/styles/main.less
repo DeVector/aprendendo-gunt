@@ -1,0 +1,58 @@
+@import 'maps.less';
+
+body {
+    background-color: #colors[backgroundColor];
+    color: #colors[colorText];
+    font-family: #textFont[fontPrincipal];
+}
+
+h1 {
+    font-family: #textFont[fontTitle];
+    font-size: 5em;
+}
+
+main {
+    max-width: 964px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 16px;
+    border-radius: 8px;
+    border-color: #colors[colorTextButton];
+    background-color: #colors[backgroundButton];
+    color: #colors[colorTextButton];
+    font-family: #textFont[fontPrincipal];
+}
+
+input {
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: #colors[colorText];
+    border-bottom: 6px solid #colors[colorText];
+}
+
+#numero-sorteado {
+    padding: 16px;
+    margin-top: 120px;
+    border: 8px dotted #colors[colorText];
+    display: none;
+
+    span{
+        font-weight: bold;
+        font-size: 3em;
+        display: block;
+    }
+}
